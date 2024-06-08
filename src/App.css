@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.champion-container {
+  height: calc(100vh - 50px); 
+  overflow-y: auto; 
+}
+
+.champion-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  gap: 10px; 
+  padding: 10px; 
+}
+
+.champion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.champion img {
+  width: 150px;
+  height: 150px;
+}
+
+.champion-name {
+  margin-top: 5px;
+  font-weight: bold;
+}
