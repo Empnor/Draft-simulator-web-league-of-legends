@@ -46,11 +46,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Champion List</h1>
+      <h1>Draft Simulator</h1>
       <div className="SearchContainer">
         <input
           type="text"
-          placeholder="Draft Simulator"
+          placeholder="Find champion"
           value={searchTerm}
           onChange={handleChange}
         />
